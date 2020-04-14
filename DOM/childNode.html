@@ -8,6 +8,9 @@
     </body>
     <script>
         var t  = document.getElementById('pd');
-        console.log(t.firstElementChild);
+        console.log(t.childNodes);
+        //Output will be 
+        //text,h1,text,p,text,script,text
+        //Note-If anything come node then it will consider empty space and next line will be text.
     </script>
 </html>
