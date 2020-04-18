@@ -4,4 +4,5 @@
    b)Block scope means with any curly braces(i.e within any loops)
    c)Function scope means within any function
   
-  Note-
+  Note-If Function defined inside the function with var keyword then it will be local means it will be access only that fuction,
+  and if the variable defined outside the fuction with var keyword then it will be global scope
