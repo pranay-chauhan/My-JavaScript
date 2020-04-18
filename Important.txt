@@ -1,0 +1,7 @@
+=====================================================Importants==============================
+1.Difference between var, let and const
+==>a)var is fucntion scoped where as let and const are block scope.
+   b)Block scope means with any curly braces(i.e within any loops)
+   c)Function scope means within any function
+  
+  Note-
