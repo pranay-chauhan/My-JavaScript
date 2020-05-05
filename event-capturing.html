@@ -10,6 +10,7 @@
     </div>
 </body>
 <script>
+    //Event Capturing is the event starts from top element to target element.Modern browser doesn’t support event capturing by default so we can achive it using pass the third parameter true to the add eventlistner function
     var parent = document.querySelector('#parent');
     parent.addEventListener('click', function () {
         console.log('Parent Click')
