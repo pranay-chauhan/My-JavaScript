@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        //Another example of closure
+        function outer(){
+            var b =10;
+            function inner(){
+                var a = 2;
+                console.log(a+b)
+            }
+            return inner
+        }
+        console.log(outer());
+        console.log(outer());
+    </script>
+</html>

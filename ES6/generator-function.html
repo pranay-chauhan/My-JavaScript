@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+    </body>
+    <script>
+        //Generator function is a function that is introduced in es6 that allow to function to generate many values over a time by iteratable Object
+
+        function *myGenFunc(){
+            let n = 1;
+            while(true){
+                yield n ++;
+            }
+        }
+        const myGFunc = myGenFunc();
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+        console.log(myGFunc.next());
+    </script>
+</html>
