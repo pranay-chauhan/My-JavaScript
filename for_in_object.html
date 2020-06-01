@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            For in Loop in JavaScript
+        </title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        var emp = {
+            name:'Mohan',
+            age:45,
+            sal:4000,
+            desc:'TL'
+        }
+        for(let keys in emp){
+            console.log('The keys of employee',keys)
+        }
+        //In the above for in loop we are finding the keys of given object
+        for(let keys in emp){
+            console.log("The value of given key is",emp[keys]); 
+        }
+        //Here we are finding the values of given key
+    </script>
+</html>
