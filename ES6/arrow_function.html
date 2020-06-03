@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Arrow Function in JavaScript</title>
+    </head>
+    <body></body>
+    <script>
+        //Arrow function with one paramter
+        let square = n=>n*n;
+        console.log(`The square of number is`,square(4));
+
+        //If there is no argument then
+        let birthDayWish = ()=>console.log('Happy Birthday!!!');
+        birthDayWish()
+
+        //More than one argument in arrow function
+        let sum = (a,b)=>{
+            return a+b
+        }
+        console.log("The sum of two number is "+sum(19,20));
+    </script>
+</html>
